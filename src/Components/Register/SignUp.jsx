@@ -6,15 +6,17 @@ const SignUp = () => {
 
   const handleSubmit=(event)=>{
     event.preventDefault();
-    console.log(event.target.password)
+    const email =event.target.email.value;
+    const password =event.target.password.value;
+    console.log(email,password)
   };
   const handleEmailChange = (event) => {
-    console.log(event.target.value);
+    // console.log(event.target.value);
     setEmail(event.target.value);
   };
 
   const handlePasswordBlur = (event) => {
-    console.log(event.target.value);
+    // console.log(event.target.value);
   };
   return (
     <div>
