@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './header.css'
+import './header.css';
+
 
 const Header = () => {
     return (
@@ -8,6 +9,7 @@ const Header = () => {
            <Link to="/">Home</Link> 
            <Link to="/login">Login</Link> 
            <Link to="/register">Register</Link> 
+           <Link to="/registerRbt">RegisterRBT</Link> 
         </nav>
     );
 };
